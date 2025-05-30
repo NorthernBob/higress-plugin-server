@@ -2,11 +2,11 @@
 ## 拉取插件命令
 确认机器已经安装 oras 工具，运行
 ```bash
-    python pull_plugins.py # 从 oci 仓库拉取插件并生产元数据
+    python pull_plugins.py # 从 oci 仓库拉取插件并生成元数据
 ```
 ## 手工添加插件后生成元数据
 ```bash
-    python generate_metadata.py.py # 从 oci 仓库拉取插件并生产元数据
+    python generate_metadata.py.py # 从 oci 仓库拉取插件并生成元数据
 ```
 ## 构建插件镜像
 ```bash
