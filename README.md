@@ -6,7 +6,7 @@
 ```
 ## 手工添加插件后生成元数据
 ```bash
-    python generate_metadata.py.py # 从 oci 仓库拉取插件并生成元数据
+    python generate_metadata.py.py
 ```
 ## 构建插件镜像
 ```bash
