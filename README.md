@@ -1,5 +1,5 @@
 # higress-plugin-server
-## 拉取插件命令
+## 拉取插件
 确认机器已经安装 oras 工具，运行
 ```bash
 # 从 oci 仓库拉取插件并生成元数据
@@ -9,7 +9,7 @@ python pull_plugins.py ./plugins.properties
 ```bash
 python generate_metadata.py
 ```
-## 构建插件镜像
+## 构建插件服务器镜像并推送
 ```bash
 docker buildx build \
   --platform linux/amd64,linux/arm64 \
