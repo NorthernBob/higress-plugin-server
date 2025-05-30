@@ -1,0 +1,5 @@
+Plugin Name: ai-statistics
+Size: 1987644 bytes
+Last Modified: 2025-05-08T18:44:55
+Created: 2025-05-23T14:20:33.561636
+MD5: 7a9e5cec31acacd82e33584feaab882e

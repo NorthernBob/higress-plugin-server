@@ -1,0 +1,5 @@
+Plugin Name: ai-intent
+Size: 1982021 bytes
+Last Modified: 2024-09-02T18:06:14
+Created: 2025-05-23T14:20:40.801257
+MD5: 134713345813f000102125be97bb5bfb

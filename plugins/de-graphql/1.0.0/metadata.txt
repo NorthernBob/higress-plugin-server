@@ -1,0 +1,5 @@
+Plugin Name: de-graphql
+Size: 2165836 bytes
+Last Modified: 2024-07-24T19:48:42
+Created: 2025-05-23T14:21:04.173428
+MD5: ba7cac97abe59a751e5621ea966cd049

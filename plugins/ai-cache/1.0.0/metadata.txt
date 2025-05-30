@@ -1,0 +1,5 @@
+Plugin Name: ai-cache
+Size: 2461881 bytes
+Last Modified: 2025-03-17T11:01:52
+Created: 2025-05-23T14:20:37.113947
+MD5: d518242d9a61c72ac8ffd77d4c9c7432

@@ -1,0 +1,5 @@
+Plugin Name: key-rate-limit
+Size: 484322 bytes
+Last Modified: 2025-05-23T14:21:10.181649
+Created: 2025-05-23T14:21:10.199316
+MD5: 119288a7a36fe7e08a71a290cd8501d9

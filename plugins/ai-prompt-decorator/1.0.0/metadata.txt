@@ -1,0 +1,5 @@
+Plugin Name: ai-prompt-decorator
+Size: 1901179 bytes
+Last Modified: 2024-07-24T19:45:10
+Created: 2025-05-23T14:20:28.160999
+MD5: a4219cf2d6cdc08efcf4e3c509809d57

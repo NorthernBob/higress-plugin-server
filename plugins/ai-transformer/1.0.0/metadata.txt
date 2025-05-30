@@ -1,0 +1,5 @@
+Plugin Name: ai-transformer
+Size: 1966594 bytes
+Last Modified: 2024-07-24T19:34:48
+Created: 2025-05-23T14:20:35.940416
+MD5: 301033298fe069f10464984971963ecd

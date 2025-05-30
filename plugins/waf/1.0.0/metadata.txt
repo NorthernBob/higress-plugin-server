@@ -1,0 +1,5 @@
+Plugin Name: waf
+Size: 10134062 bytes
+Last Modified: 2023-11-02T11:35:14
+Created: 2025-05-23T14:21:18.379134
+MD5: 1d36e8213fa3f2d7b17e2e48ac3f9eef

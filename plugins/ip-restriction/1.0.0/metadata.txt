@@ -1,0 +1,5 @@
+Plugin Name: ip-restriction
+Size: 1900405 bytes
+Last Modified: 2024-08-25T18:20:17
+Created: 2025-05-23T14:21:12.355291
+MD5: 8fa7c0ab3a5993bab169f00837d1735f

@@ -1,0 +1,5 @@
+Plugin Name: basic-auth
+Size: 535468 bytes
+Last Modified: 2025-05-23T14:20:50.869271
+Created: 2025-05-23T14:20:50.882697
+MD5: 05bca1569ca295d08b6123b45f19e4ff

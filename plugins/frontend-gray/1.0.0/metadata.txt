@@ -1,0 +1,5 @@
+Plugin Name: frontend-gray
+Size: 2083215 bytes
+Last Modified: 2025-02-08T18:00:49
+Created: 2025-05-23T14:21:08.182789
+MD5: 8057e0bb3741a0b2962bb7622fbf69b5

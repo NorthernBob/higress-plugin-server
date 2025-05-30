@@ -1,0 +1,5 @@
+Plugin Name: oauth
+Size: 955489 bytes
+Last Modified: 2025-05-23T14:20:58.442789
+Created: 2025-05-23T14:20:58.459145
+MD5: 9de13a285aa69aa6aea3a78cfcbe35ce

@@ -1,0 +1,5 @@
+Plugin Name: key-auth
+Size: 561697 bytes
+Last Modified: 2025-05-23T14:20:51.840332
+Created: 2025-05-23T14:20:51.856420
+MD5: cc79c4dd240114e8eb62dc3ba3306303
