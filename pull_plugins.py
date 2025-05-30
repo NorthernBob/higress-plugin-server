@@ -127,9 +127,8 @@ def main():
         script_dir = os.path.dirname(os.path.abspath(__file__))
         default_path = os.path.join(script_dir, 'plugins.properties')
 
-        # 若文件不存在，尝试从远程下载
-        if not os.path.exists(default_path):
-            download_properties(DEFAULT_PROPERTIES_URL, default_path)
+        # 用户未指定路径，尝试从远程下载
+        download_properties(DEFAULT_PROPERTIES_URL, default_path)
 
         args.properties_path = default_path
 
