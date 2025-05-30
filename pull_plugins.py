@@ -152,8 +152,14 @@ def process_plugin(base_path, plugin_name, plugin_url):
 
 def main():
     parser = argparse.ArgumentParser(description='处理插件配置文件')
-    parser.add_argument('properties_path', help='properties文件路径')
+    parser.add_argument('properties_path', nargs='?', default=None, 
+                        help='properties文件路径（默认：脚本所在目录下的plugins.properties）')
     args = parser.parse_args()
+
+    # 如果未指定路径，则使用脚本所在目录下的 plugins.properties
+    if args.properties_path is None:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        args.properties_path = os.path.join(script_dir, 'plugins.properties')
 
     base_path = os.path.dirname(args.properties_path)
     properties = read_properties(args.properties_path)
