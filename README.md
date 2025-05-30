@@ -2,11 +2,11 @@
 ## 拉取插件命令
 确认机器已经安装 oras 工具，运行
 ```bash
-    python pull_plugins.py # 从 oci 仓库拉取插件并生成元数据
+python pull_plugins.py # 从 oci 仓库拉取插件并生成元数据
 ```
 ## 手工添加插件后生成元数据
 ```bash
-    python generate_metadata.py.py
+python generate_metadata.py.py
 ```
 ## 构建插件镜像
 ```bash
@@ -19,5 +19,5 @@ docker buildx build \
 ```
 ## 在 higress-console 中按照以下格式配置插件下载地址
 ```bash
-    http://higress-plugin-server.higress-system.svc/plugins/key-auth/1.0.0/plugin.wasm
+http://higress-plugin-server.higress-system.svc/plugins/key-auth/1.0.0/plugin.wasm
 ```
