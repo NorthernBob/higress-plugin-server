@@ -7,6 +7,11 @@ import tarfile
 import shutil
 import hashlib
 from datetime import datetime
+import urllib.request
+import urllib.error
+
+# 远程 properties 文件 URL
+DEFAULT_PROPERTIES_URL = "https://raw.githubusercontent.com/higress-group/higress-console/main/backend/sdk/src/main/resources/plugins/plugins.properties"
 
 def calculate_md5(file_path, chunk_size=4096):
     """计算文件的 MD5 值"""
@@ -18,7 +23,7 @@ def calculate_md5(file_path, chunk_size=4096):
 
 def read_properties(file_path):
     """
-    读取properties文件并解析所有插件信息
+    读取 properties 文件并解析所有插件信息
     """
     properties = {}
     try:
@@ -93,6 +98,61 @@ def generate_metadata(plugin_dir, plugin_name):
     except Exception as e:
         print(f"生成元数据失败: {e}")
 
+def download_properties(url, target_path):
+    """
+    从指定 URL 下载 properties 文件到本地路径
+    """
+    print(f"正在从 {url} 下载 plugins.properties 到 {target_path}...")
+    try:
+        urllib.request.urlretrieve(url, target_path)
+        print("下载完成。")
+    except urllib.error.HTTPError as e:
+        print(f"HTTP 错误: {e.code} - {e.reason}")
+        sys.exit(1)
+    except urllib.error.URLError as e:
+        print(f"URL 错误: {e.reason}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"下载文件时发生错误: {e}")
+        sys.exit(1)
+
+def main():
+    parser = argparse.ArgumentParser(description='处理插件配置文件')
+    parser.add_argument('properties_path', nargs='?', default=None,
+                        help='properties文件路径（默认：脚本所在目录下的plugins.properties）')
+    args = parser.parse_args()
+
+    # 用户未提供路径时，使用默认逻辑
+    if args.properties_path is None:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        default_path = os.path.join(script_dir, 'plugins.properties')
+
+        # 若文件不存在，尝试从远程下载
+        if not os.path.exists(default_path):
+            download_properties(DEFAULT_PROPERTIES_URL, default_path)
+
+        args.properties_path = default_path
+
+    base_path = os.path.dirname(args.properties_path)
+    properties = read_properties(args.properties_path)
+
+    if not properties:
+        print("未找到有效的插件配置")
+        return
+
+    failed_plugins = []
+
+    for plugin_name, plugin_url in properties.items():
+        print(f"\n正在处理插件: {plugin_name}")
+        success = process_plugin(base_path, plugin_name, plugin_url)
+        if not success:
+            failed_plugins.append(plugin_name)
+
+    if failed_plugins:
+        print("\n以下插件未成功处理:")
+        for plugin in failed_plugins:
+            print(f"- {plugin}")
+
 def process_plugin(base_path, plugin_name, plugin_url):
     """
     处理单个插件下载和信息获取
@@ -149,37 +209,6 @@ def process_plugin(base_path, plugin_name, plugin_url):
         generate_metadata(plugin_dir, plugin_name)
 
     return wasm_found
-
-def main():
-    parser = argparse.ArgumentParser(description='处理插件配置文件')
-    parser.add_argument('properties_path', nargs='?', default=None, 
-                        help='properties文件路径（默认：脚本所在目录下的plugins.properties）')
-    args = parser.parse_args()
-
-    # 如果未指定路径，则使用脚本所在目录下的 plugins.properties
-    if args.properties_path is None:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        args.properties_path = os.path.join(script_dir, 'plugins.properties')
-
-    base_path = os.path.dirname(args.properties_path)
-    properties = read_properties(args.properties_path)
-
-    if not properties:
-        print("未找到有效的插件配置")
-        return
-
-    failed_plugins = []
-
-    for plugin_name, plugin_url in properties.items():
-        print(f"\n正在处理插件: {plugin_name}")
-        success = process_plugin(base_path, plugin_name, plugin_url)
-        if not success:
-            failed_plugins.append(plugin_name)
-
-    if failed_plugins:
-        print("\n以下插件未成功处理:")
-        for plugin in failed_plugins:
-            print(f"- {plugin}")
 
 if __name__ == '__main__':
     main()
