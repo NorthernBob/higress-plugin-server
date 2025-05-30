@@ -1,5 +1,0 @@
-Plugin Name: ai-prompt-template
-Size: 1930150 bytes
-Last Modified: 2025-01-08T14:28:25
-Created: 2025-05-23T14:20:29.175556
-MD5: b731af5c18b554495227c389aef777cf

@@ -1,5 +1,0 @@
-Plugin Name: mcp-server
-Size: 11537516 bytes
-Last Modified: 2025-05-15T16:36:14
-Created: 2025-05-23T14:20:49.943791
-MD5: c679a1bc03cf8fe44d616504c755ccf2

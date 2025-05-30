@@ -1,5 +1,0 @@
-Plugin Name: jwt-auth
-Size: 2857132 bytes
-Last Modified: 2025-05-23T14:20:54.919348
-Created: 2025-05-23T14:20:54.931278
-MD5: 29183c9f745316a40df236d1cddc4935

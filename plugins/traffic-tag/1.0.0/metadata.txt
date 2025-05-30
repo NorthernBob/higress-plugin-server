@@ -1,5 +1,0 @@
-Plugin Name: traffic-tag
-Size: 4957317 bytes
-Last Modified: 2025-05-23T14:21:15.704480
-Created: 2025-05-23T14:21:15.722179
-MD5: ee2b7bed27abd898272d37e617939c71

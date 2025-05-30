@@ -1,5 +1,0 @@
-Plugin Name: cors
-Size: 2179222 bytes
-Last Modified: 2024-07-24T19:48:11
-Created: 2025-05-23T14:21:19.427313
-MD5: 397ad2094e0e3f1984a721a7734db178

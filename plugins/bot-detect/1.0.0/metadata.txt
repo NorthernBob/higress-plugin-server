@@ -1,5 +1,0 @@
-Plugin Name: bot-detect
-Size: 884582 bytes
-Last Modified: 2025-05-23T14:21:16.705357
-Created: 2025-05-23T14:21:16.720257
-MD5: 6e9f232014e60b5814463a9689e4a7b1

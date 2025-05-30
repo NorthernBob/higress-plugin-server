@@ -1,5 +1,0 @@
-Plugin Name: geo-ip
-Size: 48668526 bytes
-Last Modified: 2024-11-07T15:04:49
-Created: 2025-05-23T14:21:07.004521
-MD5: 9dfcb0ab3cdf494dde5f0263a147112f

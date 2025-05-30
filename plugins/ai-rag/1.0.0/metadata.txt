@@ -1,5 +1,0 @@
-Plugin Name: ai-rag
-Size: 2222017 bytes
-Last Modified: 2024-08-01T11:48:01
-Created: 2025-05-23T14:20:30.153816
-MD5: ef8aa53a91350756954801cbbd2fe29b

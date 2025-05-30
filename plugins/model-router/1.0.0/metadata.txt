@@ -1,5 +1,0 @@
-Plugin Name: model-router
-Size: 368644 bytes
-Last Modified: 2025-05-23T14:20:47.330453
-Created: 2025-05-23T14:20:47.341398
-MD5: 1674a6d2c9144a395b38a49dd54be523

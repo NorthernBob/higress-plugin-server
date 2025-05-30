@@ -1,5 +1,0 @@
-Plugin Name: hmac-auth
-Size: 935350 bytes
-Last Modified: 2025-05-23T14:20:56.031378
-Created: 2025-05-23T14:20:56.040614
-MD5: 6ad41e6210751f0683014dde2b2f57c1

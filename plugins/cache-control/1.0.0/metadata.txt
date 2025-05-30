@@ -1,5 +1,0 @@
-Plugin Name: cache-control
-Size: 1926747 bytes
-Last Modified: 2024-08-25T18:18:25
-Created: 2025-05-23T14:21:03.164158
-MD5: c20c92a132b2cb6626c7aaab35ba66b8

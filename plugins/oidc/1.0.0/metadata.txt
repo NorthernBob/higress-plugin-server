@@ -1,5 +1,0 @@
-Plugin Name: oidc
-Size: 8523922 bytes
-Last Modified: 2025-01-03T15:47:35
-Created: 2025-05-23T14:20:53.369551
-MD5: a5f10da41a6b46b61554afb2b98ac544

@@ -1,5 +1,0 @@
-Plugin Name: model-mapper
-Size: 362800 bytes
-Last Modified: 2025-05-23T14:20:48.270778
-Created: 2025-05-23T14:20:48.284720
-MD5: 163c85a81796a253fa73a938305e9f4d

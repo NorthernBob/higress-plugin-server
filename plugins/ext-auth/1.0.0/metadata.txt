@@ -1,5 +1,0 @@
-Plugin Name: ext-auth
-Size: 5021430 bytes
-Last Modified: 2025-01-23T11:57:53
-Created: 2025-05-23T14:20:57.410562
-MD5: 1efed507f9690d4c44b80a364322f98c

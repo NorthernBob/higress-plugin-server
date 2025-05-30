@@ -1,5 +1,0 @@
-Plugin Name: custom-response
-Size: 418830 bytes
-Last Modified: 2025-05-23T14:21:00.520638
-Created: 2025-05-23T14:21:00.535679
-MD5: 616f1bc83ee2a3a6a61a9a23d24ba391

@@ -1,5 +1,0 @@
-Plugin Name: ai-agent
-Size: 2690619 bytes
-Last Modified: 2024-09-13T22:37:45
-Created: 2025-05-23T14:20:43.111069
-MD5: 7f4e6a659873b394c6f344d2b9148ed4

@@ -1,5 +1,0 @@
-Plugin Name: ai-token-ratelimit
-Size: 5100928 bytes
-Last Modified: 2025-03-17T11:02:08
-Created: 2025-05-23T14:20:34.911361
-MD5: 3d15193f970adf0be706991509ac4d14

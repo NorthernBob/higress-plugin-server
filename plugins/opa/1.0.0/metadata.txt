@@ -1,5 +1,0 @@
-Plugin Name: opa
-Size: 2025074 bytes
-Last Modified: 2024-09-13T09:42:31
-Created: 2025-05-23T14:20:59.541907
-MD5: 1a7a0e1b54366c690dc2b474a60afe19

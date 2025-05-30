@@ -1,5 +1,0 @@
-Plugin Name: ai-json-resp
-Size: 2879906 bytes
-Last Modified: 2024-09-13T22:38:52
-Created: 2025-05-23T14:20:46.450366
-MD5: 2ff5c7aced2733974d2a8087529f7b31

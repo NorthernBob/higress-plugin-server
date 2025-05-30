@@ -1,5 +1,0 @@
-Plugin Name: ai-quota
-Size: 2135671 bytes
-Last Modified: 2025-04-01T19:00:47
-Created: 2025-05-23T14:20:41.913797
-MD5: d08d3680d8e18c05bdc6737e73f334a9
